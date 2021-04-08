@@ -17,13 +17,13 @@ vars:
   hubspot_email_event_deferred_enabled: true
   hubspot_email_event_delivered_enabled: true
   hubspot_email_event_dropped_enabled: true
-  hubspot_email_event_forward_enabled: true
+  hubspot_email_event_forward_enabled: false
   hubspot_email_event_click_enabled: true
   hubspot_email_event_opens_enabled: true
-  hubspot_email_event_print_enabled: true
+  hubspot_email_event_print_enabled: false
   hubspot_email_event_sent_enabled: true
-  hubspot_email_event_spam_report_enabled: true
-  hubspot_email_event_status_change_enabled: true
+  hubspot_email_event_spam_report_enabled: false
+  hubspot_email_event_status_change_enabled: false
 
   # Sales
 

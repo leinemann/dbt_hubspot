@@ -9,8 +9,7 @@
     'forwards',
     'opens',
     'prints',
-    'spam_reports',
-    'unsubscribes'
+    'spam_reports'
 ] %}
 
 with campaigns as (

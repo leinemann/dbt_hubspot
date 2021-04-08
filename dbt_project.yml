@@ -92,7 +92,6 @@ vars:
       - opens
       - prints
       - spam_reports
-      - unsubscribes
 
 models:
   hubspot:

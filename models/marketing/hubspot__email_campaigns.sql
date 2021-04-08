@@ -1,17 +1,5 @@
 {{ config(enabled=fivetran_utils.enabled_vars(['hubspot_marketing_enabled','hubspot_email_event_enabled'])) }}
 
-{% set email_metrics = [
-    'bounces',
-    'clicks',
-    'deferrals',
-    'deliveries',
-    'drops',
-    'forwards',
-    'opens',
-    'prints',
-    'spam_reports'
-] %}
-
 with campaigns as (
 
     select *

@@ -6,19 +6,18 @@ require-dbt-version: [">=0.18.0", "<0.20.0"]
 vars:
 
   # Marketing
-
   hubspot_marketing_enabled: true                        # Disables all marketing models
   hubspot_contact_enabled: true                          # Disables the contact models
-  hubspot_contact_list_enabled: true                     # Disables contact list models
+  hubspot_contact_list_enabled:  true                    # Disables contact list models
   hubspot_contact_list_member_enabled: true              # Disables contact list member models
   hubspot_contact_property_enabled: true                 # Disables the contact property models
   hubspot_email_event_enabled: true                      # Disables all email_event models and functionality
   hubspot_email_event_bounce_enabled: true
+  hubspot_email_event_click_enabled: true
   hubspot_email_event_deferred_enabled: true
   hubspot_email_event_delivered_enabled: true
   hubspot_email_event_dropped_enabled: true
   hubspot_email_event_forward_enabled: false
-  hubspot_email_event_click_enabled: true
   hubspot_email_event_opens_enabled: true
   hubspot_email_event_print_enabled: false
   hubspot_email_event_sent_enabled: true
@@ -92,6 +91,7 @@ vars:
       - opens
       - prints
       - spam_reports
+      - unsubscribes
 
 models:
   hubspot:
